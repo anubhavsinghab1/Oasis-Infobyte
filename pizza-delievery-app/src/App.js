@@ -1,6 +1,12 @@
+import React from "react";
+import LoginForm from "./Components/LoginForm";
+// import SignUpForm from "./Components/SignUp";
 function App() {
   return (
-    <h1>Hello WOrld</h1>
+    <>
+      {/* <SignUpForm/> */}
+      <LoginForm/>
+    </>
   );
 }
 
