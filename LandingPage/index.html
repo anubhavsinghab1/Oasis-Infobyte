@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+   
+    <title>JabTV Landing Page</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+        <a href="#" class="logo">
+          <h1>
+            <span class="jab">Jab</span><span class="tv">TV</span><span class="fist">&#x1F44A;</span>
+          </h1>
+        </a>
+        <ul>
+            <li class="nav-item">
+                <a href="#about" class="nav-link" id="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#stars" class="nav-link" id="nav-link">Boxing Stars</a>
+            </li>
+            <li class="nav-item">
+                <a href="#stakeholders" class="nav-link" id="nav-link">Stakeholders</a
+                >
+            </li>
+            <li class="nav-item">
+                <a href="#sub" class="nav-link" id="nav-link">Subscribe</a>
+            </li>
+        </ul>
+      </nav>
+      
+      <!-- Dark/light theme switcher -->
+      <div class="theme-switch">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="label">
+          <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+          <ion-icon name="moon-outline" class="moon"></ion-icon>
+          <div class="switcher"></div>
+        </label>
+      </div>
+      
+      <!-- Bars -->
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <!-- Hero section -->
+    <section class="hero">
+        <div class="intro-text">
+          <h1>
+            <span class="hear"> You can Hear the Jabs </span> <br />
+            <span class="connecting"> Connecting</span>
+          </h1>
+          <p>
+            An online streaming platform for boxing matches <br />
+            We also dedicate some special time to throwbacks cuz old is gold
+          </p>
+          <a class="btn red" href="#">Learn More</a>
+          <a class="btn blue" href="#">Subscribe</a>
+        </div>
+        <div class="i-frame">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/sUmM_PFpsvQ" title="YouTube video player" frameborder="10"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+          <div class="stand-1"></div>
+          <div class="stand-2"></div>
+        </div>
+      </section>
+
+      <!-- About section -->
+    <section class="about" id="about">
+        <h3>Watch the Jabs</h3>
+        <p>
+          Our primary objective is to bring live boxing matches to fans all around
+          the world
+        </p>
+  
+        <h3>Its not About the Fights Alone!</h3>
+        <p>
+          We also air documentaries specially made for the greats, lifestyle of
+          boxers, news, and more.
+        </p>
+      </section>
+      <!-- Lightbox image gallery -->
+    <section class="stars" id="stars">
+        <div class="stars-gallery">
+          <a href="images/anthony.jpeg" class="big">
+            <img
+              src="images/anthony.jpeg"
+              alt="Anthony Joshua"
+              title="AJ"
+            />
+          </a>
+  
+          <a href="images/tyson.jpeg" class="big">
+            <img
+              src="images/tyson.jpeg"
+              alt="Tyson Fury"
+              title="Gypsy King"
+            />
+          </a>
+  
+          <a href="images/iron.jpeg" class="big">
+            <img
+              src="images/iron.jpeg"
+              alt="Iron Mike"
+              title="Iron Mike"
+            />
+          </a>
+  
+          <a href="images/ali.jpeg" class="big">
+            <img
+              src="images/ali.jpeg"
+              alt="Mohammed Ali"
+              title="The Greatest"
+            />
+          </a>
+  
+          <a href="images/wilder.jpeg" class="big"
+            ><img
+              src="images/wilder.jpeg"
+              alt="Deontay Wilder"
+              title="Bronze Bomber"
+            />
+          </a>
+  
+          <a href="images/george.jpeg" class="big">
+            <img
+              src="images/george.jpeg"
+              alt="George Foreman"
+              title="Big George Foreman"
+            />
+          </a>
+        </div>
+  </section>
+
+    <!-- Jab TV Stakeholders -->
+    <section class="people" id="stakeholders">
+        <div class="stakeholders">
+          <div class="persons">
+            <div class="person-1">
+              <img src="images/john.jpeg" alt="John Doe" />
+              <p class="name">John Doe</p>
+              <p class="role">Founder</p>
+            </div>
+            <div class="person-2">
+              <img src="images/jane.jpeg" alt="Jane Doe" />
+              <p class="name">Jane Doe</p>
+              <p class="role">MD</p>
+            </div>
+            <div class="person-3">
+              <img src="images/jnr.jpeg" alt="John Doe Jnr" />
+              <p class="name">John Doe JNR</p>
+              <p class="role">Head Analyst</p>
+            </div>
+          </div>
+        </div>
+  </section>
+
+    <!-- Email subscription -->
+    <section class="sub" id="sub">
+        <h3>Subscribe to our newsletter for updates</h3>
+        <form action="#">
+          <input
+            type="email"
+            name="email"
+            id="email-sub"
+            class="email-sub"
+            required
+          />
+          <input
+            type="submit"
+            value="Subscribe"
+            id="submit-btn"
+            class="submit-btn"
+          />
+        </form>
+  </section>
+
+    <!-- Social icons -->
+    <section class="social">
+        <h3>Connect with us on Social Media</h3>
+        <div class="socicons">
+          <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+          <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+          <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+        </div>
+  </section>
+
+    <!-- Scroll to top button -->
+    <footer>&copy;2024. All Rights Reserved</footer>
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="images/upward.png"
+        class="socicon up-arrow"
+        alt="up-arrow"
+      /></i>
+
+
+    <!-- Web page script -->
+    <!-- <script src="assets/js/app.js"></script> -->
+
+    <!-- Ion icons CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- Simple lightbox -->
+    <!-- <script src="assets/js/simple-lightbox.min.js"></script>
+    <script>
+      // Simple lightbox initializer
+     </script> -->
+     <script src="script.js"></script>
+  </body>
+</html>
